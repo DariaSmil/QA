@@ -1,0 +1,72 @@
+ID,1
+Summary,Books of all publishers are displayed while specific publisher is selected.
+Project,"""Книгарня Є"""
+Component,filter
+Severity,Minor
+Priority,Medium
+Status,Opened
+Author,Daria Smilianski
+Assigned To,developer
+,
+Environment,"Microsoft Windows [Version 10.0.19042.1466], Microsoft EdgeВерсия 98.0.1108.43 (Официальная сборка) (64-разрядная версия), prod: https://book-ye.com.ua/"
+,
+,Steps to Reproduce
+1,Open site https://book-ye.com.ua/ 
+2,"Press the button ""Publishing offices""."
+3,Сhoose any publishing office in any language.
+Actual Result:,Books of all publishers are displayed while specific publisher is selected.
+Expected Result:,Only books from the selected publisher are displayed.
+,
+Attachments,http://joxi.ru/52a03MQTlLeV4m                                                                       
+,http://joxi.ru/4AkwNYOFjWlW8A
+,
+,
+ID,2
+Summary,The Ukrainian alphabet is not displayed.
+Project,"""Книгарня Є"""
+Component,filter
+Severity,Minor
+Priority,Medium
+Status,Opened
+Author,Daria Smilianski
+Assigned To,developer
+,
+Environment,"Microsoft Windows [Version 10.0.19042.1466], Microsoft EdgeВерсия 98.0.1108.43 (Официальная сборка) (64-разрядная версия), prod: https://book-ye.com.ua/"
+,
+,Steps to Reproduce
+1,Open site https://book-ye.com.ua/ 
+2,"Press the button ""Authors""."
+3,Select Ukrainian alphabet.
+4,Select English alphabet.
+5,"Double click on the ""Ukrainian language"" button."
+6,Select English alphabet.
+Actual Result:,"The letters of the Ukrainian alphabet are not appearing, appear letters of the English alphabet and disappear from the English alphabet."
+Expected Result:,Each alphabet has its own letters.
+,
+Attachments,http://joxi.ru/p27eDxLtLM8GDr
+,http://joxi.ru/a2Xy5kesQE7vjA
+,
+Notes	,"Everything returns to its place, after double-clicking on the English language."
+,
+,
+ID,3
+Summary,Specific reaction can't be selected (smiling emoticon with one tear) on any message.
+Project,Instgram
+Component,Reaction to the message.
+Version,221.0
+Severity,Minor
+Priority,Low
+Status,Opened
+Author,Daria Smilianski
+Assigned To,developer
+,
+Environment,"Iphone 12 PRO MAX iOS 15.2.1, Instgram 221.0"
+,
+,Steps to Reproduce
+1,Open a registered account in the Instagram app.
+2,Open any dialogue in messages.
+3,Put a reaction (smiling emoticon with one tear) on any message.
+Actual Result:,Specific reaction can't be selected (smiling emoticon with one tear) on any message.
+Expected Result:,Specific reaction can be selected (smiling emoticon with one tear) on any message.
+,
+Attachments,
