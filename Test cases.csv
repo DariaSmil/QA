@@ -1,0 +1,72 @@
+Test-case №1,"Sign up on ""hillel auto""."
+Priority ,P0
+Pre-condition:,"User doesn’t have account on ""hillel auto""                                     "
+Steps:,
+1,Go to site https://qauto2.forstudy.space/
+2,"Click on button ""Sign up""."
+3,Fill inputs ‘Name’ with 10 English symbols.
+4,Fill inputs ‘Last Name’ with 7 English symbols.
+5,Fill inputs ‘Email’ (valid email).
+6,"Fill inputs ""Password"" with 12 Eglish symbols, 1 integer ,1 capital letter and 1 small letter"
+7,"Fill inputs ""Re-enter password"" (the same as the password)"
+Expected Result:,User is redirected to Welcome page.
+,
+,
+Test-case №2,"Sign up on ""hillel auto"" with invalid short name."
+Priority ,P2
+Pre-condition:,"User doesn’t have account on ""hillel auto""                                     "
+Steps:,
+1,Go to site https://qauto2.forstudy.space/
+2,"Click on button ""Sign up""."
+3,Fill inputs ‘Name’ with 1 English symbol.
+4,Fill inputs ‘Last Name’ with 2 English symbols.
+5,Fill inputs ‘Email’ (valid email).
+6,"Fill inputs ""Password"" with 15 Eglish symbols, 1 integer ,1 capital letter and 1 small letter"
+7,"Fill inputs ""Re-enter password"" (the same as the password)"
+Expected Result:,"The validation message appears ""Name has to be from 2 to 20 characters long"". "
+,"Button ""Register"" is not active."
+,
+,
+Test-case №3,"Sign up on ""hillel auto"" with invalid long name"
+Priority ,P2
+Pre-condition:,"User doesn’t have account on ""hillel auto""                                     "
+Steps:,
+1,Go to site https://qauto2.forstudy.space/
+2,"Click on button ""Sign up""."
+3,Fill inputs ‘Name’ with 21 English symbols.
+4,Fill inputs ‘Last Name’ with 20 English symbols.
+5,Fill inputs ‘Email’ (valid email).
+6,"Fill inputs ""Password"" with 8 Eglish symbols, 1 integer ,1 capital letter and 1 small letter"
+7,"Fill inputs ""Re-enter password"" (the same as the password)"
+Expected result:,"The validation message appears ""Name has to be from 2 to 20 characters long"". "
+,"Button ""Register"" is not active."
+,
+,
+Test-case №4,"Sign up on ""hillel auto"" with empty inputs ""Last name"" "
+Priority ,P2
+Pre-condition:,"User doesn’t have account on ""hillel auto""                                     "
+Steps:,
+1,Go to site https://qauto2.forstudy.space/
+2,"Click on button ""Sign up""."
+3,Fill inputs ‘Name’ with 2 English symbols.
+4,Inputs ‘Last Name’ don't fill.
+5,Fill inputs ‘Email’ (valid email).
+6,"Fill inputs ""Password"" with 12 Eglish symbols, 1 integer ,1 capital letter and 1 small letter"
+7,"Fill inputs ""Re-enter password"" (the same as the password)"
+Expected result:,"The validation message appears ""Last name has to be from 2 to 20 characters long"". "
+,"Button ""Register"" is not active."
+,
+,
+Test-case №5,"Sign up on ""hillel auto"" with invalid password"
+Priority ,P2
+Pre-condition:,"User doesn’t have account on ""hillel auto""                                     "
+Steps:,
+1,Go to site https://qauto2.forstudy.space/
+2,"Click on button ""Sign up""."
+3,Fill inputs ‘Name’ with 20 English symbols.
+3,Fill inputs ‘Last Name’ with 20 English symbols.
+5,Fill inputs ‘Email’ (valid email).
+6,"Fill inputs ""Password"" with 7 Eglish symbols, 1 integer ,1 capital letter and 1 small letter"
+7,"Fill inputs ""Re-enter password"" (the same as the password)"
+Expected result:,"The validation message appears ""Password has to be from 8 to 15 characters long and contain at least one integer, one capital, and one small letter"". "
+,"Button ""Register"" is not active."
