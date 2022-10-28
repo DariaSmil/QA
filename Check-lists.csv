@@ -1,0 +1,59 @@
+Positive check-lists,Negative check-lists
+sign up with organization account (existing working url),sign up with organization account (no existing working url)
+"Sign up (full name - 57 characters and not mail, email address - in the format - name@email.com and not registered, password - 72 characters)",Sign up (registered user data)
+"Sign up (full name - 1 character and not mail, email address - in the format - name@email.com and unregistered, password - 8 characters)","Sign up (lines: full name, email address, password are empty)"
+,"Sign up (full name - empty line, email address - in the format - name@email.com, password - 8-72 characters)"
+,"Sign up (full name - valid, email address - empty line, password - 8-72 characters)"
+,"Sign up (full name - valid, email address - absent - ""@"", ""."", password - 8-72 characters)"
+,"Sign up (full name - valid, email address - in the format - name@email.com, password - empty line)"
+,"Sign up (full name - valid, email address - in the format - name@email.com, password - 5 characters)"
+"Sign up with Google (all values ​​are valid: email address - in the format - name@gmail.com, password) ",Sign up with Google (arbitrary email and password are entered that are not tied to a Google account)
+,"Sign up with Google (lines: email address, password are empty)"
+,"Sign up with Google (email address in the format - name@gmail.com, password - empty line)"
+,"Sign up with Google (email address in the format - name@gmail.com, password - incorrect)"
+,"Sign up with Google (email address - empty line, password - valid)"
+,"Sign up with Google (email address in the format - name@gmailcom, password - valid)"
+,"Sign up with Google (email address in the format - namegmail.com, password - valid)"
+,"Sign up with Google (email address in the format - name@yandex.ru, password - valid)"
+,"Sign up with Google (email address in the format - name@yahoo.com, password - valid)"
+,"Sign up with Google (email address in the format - name@net.ru, password - valid)"
+"Sign up with Facebook (all values are valid: email address - in the format - name@email.com, password)",Sign up with Facebook (arbitrary email and password are entered that are not tied to a Facebook account)
+,"Sign up with Facebook (lines: email address, password - empty)"
+,"Sign up with Facebook (email address in the format - name@email.com, password - empty line)"
+,"Sign up with Facebook (email address in the format - name@email.com, password - incorrect)"
+,"Sign up with Facebook (email address - empty line, password - valid)"
+,"Sign up with Facebook (email address - not attached to Facebook account, password - valid)"
+,"Sign up with Facebook (email address - incorrectly entered, password - valid)"
+,"Sign up with Facebook (email address - missing - ""@"", ""."", password - valid)"
+"Login (all values are valid - login, password)",Login (arbitrary email and password are entered that are not registered on the COURSERA platform)
+,"Login (email - name@email.com, password - empty line)"
+,"Login (email address - name@email.com, password - does not match the one specified during registration)"
+,"Login (email - empty line, password - valid)"
+,"Login (email address - does not match the one specified during registration, password - valid)"
+"Login with Google (all values ​​are valid: email address - in the format - name@gmail.com, password) ",Login with Google (arbitrary email and password are entered that are not tied to an account on the COURSERA platform registered with Google)
+,"Login with Google (lines: email address, password - empty)"
+,"Login with Google (email address in the format - name@gmail.com, password - empty line)"
+,"Login with Google (email address in the format - name@gmail.com, password - incorrect)"
+,"Login with Google (email - empty line, password - valid)"
+,"Login with Google (email address in the format - name@gmailcom, password - valid)"
+,"Login with Google (email address in the format - namegmail.com, password - valid)"
+,"Login with Google (email address in the format - name@yandex.ru, password - valid)"
+,"Login with Google (email address in the format - name@yahoo.com, password - valid)"
+,"Login with Google (email address in the format - name@net.ru, password - valid)"
+"Login with Facebook (all values ​​are valid: email address - in the format - name@email.com, password)",Login with Facebook (arbitrary email and password are entered that are not tied to an account on the COURSERA platform registered with Facebook)
+,"Login with Facebook (lines: email address, password are empty)"
+,"Login with Facebook (email address in the format - name@email.com, password - empty line)"
+,"Login with Facebook (email address in the format - name@email.com, password - incorrect)"
+,"Login with Facebook (email - empty line, password - valid)"
+,"Login with Facebook (email address - not attached to Facebook account, password - valid)"
+,"Login with Facebook (email - incorrectly entered, password - valid)"
+,"Login with Facebook (email address - missing - ""@"", ""."", password - valid)"
+"Login with Apple (all values ​​are valid: Apple ID, password, two-factor authentication)",Login with Apple (arbitrary email and password are entered that are not tied to Apple ID )
+,"Login with Apple (Apple ID - correct, password - empty line)"
+,"Login with Apple (Apple ID - correct, password - invalid)"
+,"Login with Apple (Apple ID - correct, password - valid, line - two-factor authentication - empty)"
+,"Login with Apple (Apple ID - correct, password - valid, line - two-factor authentication - incorrect)"
+,"Login with Apple (Apple ID - correct, password - valid, line - two-factor authentication - not verified on device with Apple ID)"
+Password recovery (registered user's email address is valid) ,Password recovery (field - e-mail - empty)
+,Password recovery (email address is not registered)
+,Password recovery (invalid email address)
